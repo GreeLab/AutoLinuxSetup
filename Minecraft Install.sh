@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Baixando e instalando Minecraft..."
+echo "Baixando e instalando Minecraft...."
 echo "----------------------------------"
 echo "Por favor, insira a senha para permissões SUDO..."
 echo "----------------------------------"
