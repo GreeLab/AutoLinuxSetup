@@ -4,7 +4,7 @@ tmp_dir=$HOME/
 install_dir=/opt
 cd $tmp_dir
 echo "Baixando Eclipse EE..."
-#wget "http://eclipse.c3sl.ufpr.br/technology/epp/downloads/release/kepler/SR2/eclipse-jee-kepler-SR2-linux-gtk-x86_64.tar.gz" -O "$tmp_dir/eclipse-jee-kepler-SR2-linux-gtk-x86_64.tar.gz"
+wget "http://eclipse.c3sl.ufpr.br/technology/epp/downloads/release/kepler/SR2/eclipse-jee-kepler-SR2-linux-gtk-x86_64.tar.gz" -O "$tmp_dir/eclipse-jee-kepler-SR2-linux-gtk-x86_64.tar.gz"
 tar -xzf "eclipse-jee-kepler-SR2-linux-gtk-x86_64.tar.gz"
 sudo rsync -a eclipse $install_dir --remove-source-files
 sudo rm -rf eclipse
