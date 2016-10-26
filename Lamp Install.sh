@@ -10,4 +10,5 @@ echo "-----------------------------------"
 gksu gedit /etc/apache2/apache2.conf
 sudo service apache2 reload
 sudo service apache2 restart
+sudo chmod -R 777 /var/www
 read -n1 -r -p "Pressione uma tecla..." key
