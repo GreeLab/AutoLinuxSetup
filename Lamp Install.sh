@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-sudo apt-get install php mysql-server apache2 phpmyadmin php-curl php-gd
+sudo apt-get install php mysql-server apache2 phpmyadmin php-curl php-gd libapache2-mod-php
 sudo phpenmod mcrypt
 echo "ATENÇÃO:"
 echo "Copie a seguinte linha e cole no final do arquivo que abrir:"
